@@ -1,0 +1,145 @@
+* { /*estrutura de todo o documento*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    background-color: #04647c;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none; /*remove marcador da lista*/
+    margin: 10px; /*adiciona margem ao redor de cada item da lista*/
+    display: inline; /*muda a configuração dos itens para lado a lado*/
+}
+
+li a {
+    padding: 5px 10px; /*espaçamento interno*/
+    margin: 0;
+    text-decoration: none; /*tira sublinhado do link*/
+    color:#26dc81;
+    border: 2px solid;
+    border-color: #26dc81;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.capa {
+    padding: 0;
+    margin: 10px;
+    width: 35%;
+    height: 35%;
+    object-fit: cover;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color:#ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    text-align: justify;
+}
+
+.serviços {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviços2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    margin: 160px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #26dc81;
+}
+
+.imagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagens2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primeiro{
+    padding: 0;
+    width: 23%;
+    height: 23%;
+    margin-left: 30px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.segundo{
+    padding: 0;
+    margin: 10px;
+    width: 23%;
+    height: 23%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.terceiro{
+    padding: 0;
+    margin: 10px;
+    width: 23%;
+    height: 23%;
+    margin-left: 60px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.descrição1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 15px;
+    margin: 30px;
+    color: #ffffff;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.botão{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #34046c;
+    border-radius: 25px;
+    border: 10px solid;
+    border-color: #34046c;
+    color: #ffffff;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer{
+    margin: 100px;
+    text-align: center;
+    font-size: 13px;
+}
